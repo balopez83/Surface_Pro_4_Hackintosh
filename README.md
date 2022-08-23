@@ -4,6 +4,7 @@ This provides the ability to boot the Surface Pro 4 &amp; Surface Book (gen1) to
 EFI supports macOS version 10.15.x and above. Not all features may work on all versions of macOS
 
 OC version 0.8.3
+
 Star or watch this github repository to be notified of updates coming soon. 
 
 If you see anything that could be added or changed don't hesitate to sumbit a request.
