@@ -12,7 +12,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 ### Do not update kexts labeled as "custom" manually if they exist, instead wait for an update. 
-### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Keep in mind that at the moment IPTSDaemon won't work until it is updated for "FMT 9.0.0". Until FMT is updated touch will not work.
+### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. The IPTSDaemon has been updated and now touch will work.
+### Instructions will be coming as soon as I work out a few more bugs in the ACPI code and clean up the EFI. I have some good things coming!!!
 
 ## Supported Surface Specifications:
 
