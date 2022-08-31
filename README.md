@@ -63,7 +63,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## What doesn't work
 
-- SDcard (Untested)
+- SDcard
 - Wi-Fi (unsupported Chipset)
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
