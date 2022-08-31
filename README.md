@@ -56,18 +56,23 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Brightness Keys
 - Power Management
 - Sleep / Wake
+- Power Button
+- Volume Buttons
 
 
 
 
 ## What doesn't work
 
-- SDcard
+- SDcard (Untested)
 - Wi-Fi (unsupported Chipset)
 - Bluetooth (unsupported Chipset)
 - FileVault
-- Windows Boot Support From OpenCore Bootloader
+- Windows Boot Support From OpenCore Bootloader 
 - Accelerometer (unsupported device)
+- Keyboard fails after disconnect. Reboot resolves this issue
+- Keyboard fails after sleep. Reboot resolves this issue
+- Unreliable battery and AC power status. Working to resolve, likely SSDT/EC coding error.
 
 
 ## Credits
