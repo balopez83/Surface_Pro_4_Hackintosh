@@ -56,7 +56,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Sleep / Wake
 - Power Button
 - Volume Buttons
-- Dual Boot with Windows or Linux (others may work. Windows must be installed through BootCamp and boot order must be changed in UEFI after Windows install)
+- Dual Boot with Linux
+
 
 
 
@@ -69,6 +70,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Accelerometer (unsupported device)
 - FileVault
 - Keyboard fails after sleep or disconnect. Reboot resolves this issue
+- Dual Boot with Windows
 
 
 
