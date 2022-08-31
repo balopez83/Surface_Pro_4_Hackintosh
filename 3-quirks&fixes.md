@@ -54,8 +54,8 @@ In addition to the scripts you can also 'Reduce Motion' & 'Reduce Transparency' 
 
 6. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
 
-```
-https://github.com/Xiashangning/IPTSDaemon
-```
+
+  [Xiashangning IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon)
+
 
 
