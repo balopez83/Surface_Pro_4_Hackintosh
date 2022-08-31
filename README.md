@@ -1,7 +1,7 @@
 # Surface Pro 4 & Surface Book (gen1) Hackintosh
 This provides the ability to boot the Surface Pro 4 &amp; Surface Book (gen1) to macOS as a hackintosh. This may also work on the Surface Pro 5 &amp; 6 as well as newer Surface Book generations with some minor modifications. 
 
-EFI supports macOS version 10.15.x and above. Not all features may work on all versions of macOS
+EFI supports macOS version 10.15.x through 12.5.1. Not all features may work on all versions of macOS. Beta software will not be officially supported until released.
 
 OC version 0.8.3
 
@@ -12,8 +12,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 ### Do not update kexts labeled as "custom" manually if they exist, instead wait for an update. 
-### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. The IPTSDaemon has been updated and now touch will work.
-### Instructions will be coming as soon as I work out a few more bugs in the ACPI code and clean up the EFI. I have some good things coming!!!
+### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
+### I am still refining and cleaning up code though this EFI now has about 90% of Surface supported hardware working reliably. 
 
 ## Supported Surface Specifications:
 
@@ -32,42 +32,45 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## Instruction Guides
 
-### [Chapter 1) Quick Start Install]
-### [Chapter 2) BootCamp Install]
-### [Chapter 3) Quirks & Fixes]
-### [Chapter 4) Additional Drivers]
-### [Chapter 5) Booting Other OS's with OpenCore]
-### [Chapter 6) Other Operating Systems]
-### [Chapter 7) Other OS Quirks & Fixes]
-### [Chapter 8) Windows 11 Upgrade and/or Clean Install]
+### [Chapter 1) Quick Start Install](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/1-QuickStart.md)
+### [Chapter 2) BootCamp Install](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/2-BootCamp.md)
+### [Chapter 3) Quirks & Fixes - Includes how to set up the Touch Screen](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/3-quirks%26fixes.md)
+### [Chapter 4) Additional Drivers](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/4-drivers.md)
+### [Chapter 5) Booting Other OS's with OpenCore](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/5-OtherOS%26OC.md)
+### [Chapter 6) Windows 11 Upgrade and/or Clean Install]
 
 
 ## What works 
 
-- macOS 10.15.x and above
+- macOS Installer
+- macOS Updates
 - Fan
 - USB
 - Battery
 - Trackpad
-- TouchScreen (Requires IPTSDaemon, see link in "notes")
+- TouchScreen (Requires IPTSDaemon, "Chapter 3")
 - Keyboard (may not turn back on after opening keyboard from sleep)
 - Audio
 - Recovery
 - Brightness Keys
 - Power Management
 - Sleep / Wake
+- Power Button
+- Volume Buttons
 
 
 
 
 ## What doesn't work
 
-- SDcard
+- SDcard (Untested)
 - Wi-Fi (unsupported Chipset)
 - Bluetooth (unsupported Chipset)
-- FileVault
-- Windows Boot Support From OpenCore Bootloader
 - Accelerometer (unsupported device)
+- FileVault
+- Windows Boot Support From OpenCore Bootloader 
+- Keyboard fails after sleep or disconnect. Reboot resolves this issue
+- Unreliable battery and AC power status. Working to resolve, likely SSDT/EC coding error. Shutdown and Cold boot seems to resolve this issue.
 
 
 ## Credits
