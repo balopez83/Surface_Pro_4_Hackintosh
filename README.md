@@ -12,8 +12,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 ### Do not update kexts labeled as "custom" manually if they exist, instead wait for an update. 
-### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. The IPTSDaemon has been updated and now touch will work.
-### Instructions will be coming as soon as I work out a few more bugs in the ACPI code and clean up the EFI. I have some good things coming!!!
+### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
+### I am still refining and cleaning up code though this EFI now has about 90% of Surface supported hardware working reliably. 
 
 ## Supported Surface Specifications:
 
@@ -42,7 +42,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## What works 
 
-- macOS 10.15.x and above
+- macOS Installer
+- macOS Updates
 - Fan
 - USB
 - Battery
@@ -70,7 +71,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Accelerometer (unsupported device)
 - Keyboard fails after disconnect. Reboot resolves this issue
 - Keyboard fails after sleep. Reboot resolves this issue
-- Unreliable battery and AC power status. Working to resolve, likely SSDT/EC coding error.
+- Unreliable battery and AC power status. Working to resolve, likely SSDT/EC coding error. Shutdown and Cold boot seems to resolve this issue.
 
 
 ## Credits
