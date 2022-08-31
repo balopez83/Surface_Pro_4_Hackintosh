@@ -37,6 +37,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 ### [Chapter 4) Additional Drivers](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/4-drivers.md)
 ### [Chapter 5) Booting Other OS's with OpenCore](https://github.com/balopez83/Surface-Pro-4-and-Surface-Book-Hackintosh/blob/main/5-OtherOS%26OC.md)
 ### [Chapter 6) Windows 11 Upgrade and/or Clean Install]
+### [Chapter 7) Enable Secure Boot with OpenCore/macOS]
 
 
 ## What works 
