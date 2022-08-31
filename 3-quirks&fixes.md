@@ -1,6 +1,6 @@
 ## Chapter 3) Quirks & Fixes
 
-### After installing macOS you may find several things that need to be resolved in order to have a true mac experience. Please use the following quirks & fixes to fix remaining issues.
+### After installing macOS you may find several things that need to be resolved in order to have a true mac experience. Please use the following quirks & fixes to fix remaining issues. ***Touch Screen instruction can be found at number 6 below***
 
 1. If you are missing OpenCore from your boot options boot your computer and press both the 'FN' AND 'F1' keys to load the boot list. Select the option to start the UEFI Shell. Once the shell loads type the following:
 ```
