@@ -66,11 +66,10 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - SDcard (Untested)
 - Wi-Fi (unsupported Chipset)
 - Bluetooth (unsupported Chipset)
+- Accelerometer (unsupported device)
 - FileVault
 - Windows Boot Support From OpenCore Bootloader 
-- Accelerometer (unsupported device)
-- Keyboard fails after disconnect. Reboot resolves this issue
-- Keyboard fails after sleep. Reboot resolves this issue
+- Keyboard fails after sleep or disconnect. Reboot resolves this issue
 - Unreliable battery and AC power status. Working to resolve, likely SSDT/EC coding error. Shutdown and Cold boot seems to resolve this issue.
 
 
