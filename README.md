@@ -11,7 +11,6 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 
 ## *** NOTICE ***
-### Do not update kexts labeled as "custom" manually if they exist, instead wait for an update. 
 ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
 ### I am still refining and cleaning up code though this EFI now has about 90% of Surface supported hardware working reliably. 
 
@@ -57,6 +56,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Sleep / Wake
 - Power Button
 - Volume Buttons
+- Dual Boot with Windows or Linux (others may work. Windows must be installed through BootCamp and boot order must be changed in UEFI after Windows install)
 
 
 
@@ -68,9 +68,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
 - FileVault
-- Windows Boot Support From OpenCore Bootloader 
 - Keyboard fails after sleep or disconnect. Reboot resolves this issue
-- Unreliable battery and AC power status. Working to resolve, likely SSDT/EC coding error. Shutdown and Cold boot seems to resolve this issue.
+
 
 
 ## Credits
