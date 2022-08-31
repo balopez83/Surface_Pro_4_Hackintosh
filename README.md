@@ -56,7 +56,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Sleep / Wake
 - Power Button
 - Volume Buttons
-- Dual Boot with Linux
+- Dual Boot with Linux (Version support varies and not all features may work. No support for linux is planned here)
 
 
 
