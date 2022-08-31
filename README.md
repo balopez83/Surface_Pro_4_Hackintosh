@@ -47,7 +47,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - USB
 - Battery
 - Trackpad
-- TouchScreen (Requires IPTSDaemon, see link in "notes")
+- TouchScreen (Requires IPTSDaemon, "Chapter 3")
 - Keyboard (may not turn back on after opening keyboard from sleep)
 - Audio
 - Recovery
