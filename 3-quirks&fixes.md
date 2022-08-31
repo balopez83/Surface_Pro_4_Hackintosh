@@ -51,3 +51,11 @@ How to use: Open Terminal and type in ```chmod +x``` and then drag and drop the 
 [Enable Animtion](https://github.com/balopez83/One_Mix_Yoga_4_Hackintosh/blob/main/reenable-animations.sh)
 
 In addition to the scripts you can also 'Reduce Motion' & 'Reduce Transparency' to further speed things up. Go to 'System Preferences' > 'Accessibility' > 'Display' to make these additional changes. 
+
+6. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
+
+```
+https://github.com/Xiashangning/IPTSDaemon
+```
+
+
