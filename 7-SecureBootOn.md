@@ -1,31 +1,41 @@
 # Chapter 7: Secure Boot On with OpenCore
-## This page has been fully copied from user [@badstorm's Surface Pro 7 page here](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md) This was copied to preserve the information in case of deletion in the future. I take no credit for the content on this page. Full credit due to @badstorm and anyone else that assisted in the creationof these steps. 
+## This pages information has been heavily copied from user [@badstorm's Surface Pro 7 page here](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md) and may contain links to other sites and images outside my control. I take no credit for the content on this page. Full credit due to @badstorm and anyone else that assisted in the creationof these steps. 
+
+## For clarity and ease of use, I have modified some of the wording and steps below to fit this Github repository and my EFI releases. Starting with release 3.0.0 I will include the most recent version of the precompiled and signed Grub within the EFI as well as the key. The steps below have been modified to include that information.
+
+## If you don't want to follow these steps manually, you may skip to Step 3!
+
 
 
 # Secure Boot with Grub
-If you want to remove the anoing red bar with the lock icon at boot, you can configure your EFI folder including Grub to load OpenCore. 
-Here the steps to follow.
 
-### Get Precompiled Grub
-We need a version of Grub precompiled with the certificate used for sign the binary file. For this presuppose we use **Super UEFIinSecureBoot Disk**. Download the [last release](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk/releases/download/3/Super-UEFIinSecureBoot-Disk_minimal_v3.zip).
+### Step 1: Get Precompiled Grub
 
-### Extract to EFI Folder
-Extract or mount the `.img` file downloaded before (you can use unzip software like *7zip*) and replace the folder `Boot` in your EFI folder with the one included in the `.img` and add the folder `grub` to your EFI folder.
-**Remember to also add the file *ENROLL_THIS_KEY_IN_MOKMANAGER.cer* outside your EFI folder**
+**The latest version is automatically included in each release but if you would like to do this process manually or for another device you can follow this step manually.**
 
-### Rename Files
-Now you must rename the OpenCore `BOOTx64.efi` file present in your `EFI/BOOT` folder in `grubx64_real.efi` replacing the version present in the `.img` file.
+We need a version of Grub precompiled with the certificate used to sign the binary file. To accomplish this we will download **Super UEFIinSecureBoot Disk**. The latest releases can be found [here](https://github.com/ValdikSS/Super-UEFIinSecureBoot-Disk/releases).
 
-### Add the Key and Boot
-At this point you can reboot and enable `Secure Boot`. You now get a blue screen with the *Access Denied* error. Is correct. Now follow this instructions (and the illustrated version):
 
- 1. At the error page press OK
- 2. Press any key to perform MOK management
- 3. Select `Enroll key from disk`
- 4. Select `Continue`
- 5. Select the disk where you put the `.cer` file
- 6. Select `Yes` and then `Reboot`
+### Step 2: Modifying the EFI
+
+a. Extract the zip you just download which will expose an `"img"` file. 
+b. You now need to mount the img or if you prefer you may extract it with software such as 7zip. 
+c. Mount your EFI containing OpenCore, and go to `\EFI\BOOT\` and rename `"BOOTx64.efi"` to `"grubx64_real.efi"`. 
+d. Copy all contents from the `"BOOT"` folder located in the `"img"` you downloaded EXCEPT the `"grubx64_real.efi"` file and paste and choose yes to overwrite the files in your OpenCore EFI under the `\EFI\BOOT\` directory if asked.
+e. Copy the folder `grub` to your OpenCore EFI folder.
+f. Copy the file `*ENROLL_THIS_KEY_IN_MOKMANAGER.cer*` at the root of your EFI partition
+
+
+### Step 3: Add the Key and Boot
+
+a. At this point whether you took the long manual way or just dropped the release EFI in your EFI partition, you can now reboot to your UEFI and enable `Secure Boot` making sure you select the option for `Microsoft and 3rd party keys`. 
+b.Reboot and you should now get a blue screen with the *Access Denied* error. Press `OK`
+c.Press any key to perform MOK management
+d. Select `Enroll key from disk`
+e. Select `Continue`
+f. Select the disk where you put the `.cer` file. If using my EFI it is located at `\EFI\` on the EFI partition
+g. Select `Yes` and then `Reboot`
 
 ![Illustrated Steps](https://camo.githubusercontent.com/47a5bd8e778cb6668e612cbd7299ed715af5a8cc27cd879b9cba0fa09b750ca1/68747470733a2f2f7777772e62756770726f6772616d6d65722e6d652f696d616765732f7365637572652d626f6f742d322e706e67)
 
-After you follow this steps, you are now able to load OpenCore with Secure Boot enabled without any interactions.
+### If you completed the steps correctly you should now be able to boot with Secure Boot turned On with OpenCore and be able to use Windows Bitlocker.
