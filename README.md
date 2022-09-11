@@ -73,5 +73,4 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 
 ## Credits
-Special thanks to [@Xiashangning](https://github.com/Xiashangning) for the excellent work done on his BigSurface kext as well as @billabongbro for other Surface specific enhancements<br>
-
+Special thanks to [@Xiashangning](https://github.com/Xiashangning) for the excellent work done on his BigSurface kext as well as [@billabongbruno](https://github.com/billabongbruno) for other Surface specific enhancements<br>
