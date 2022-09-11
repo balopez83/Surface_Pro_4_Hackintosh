@@ -1,9 +1,7 @@
 # Surface Pro 4 & Surface Book (gen1) Hackintosh
 This provides the ability to boot the Surface Pro 4 &amp; Surface Book (gen1) to macOS as a hackintosh. This may also work on the Surface Pro 5 &amp; 6 as well as newer Surface Book generations with some minor modifications. 
 
-EFI supports macOS version 10.15.x through 12.5.1. Not all features may work on all versions of macOS. Beta software will not be officially supported until released.
-
-OC version 0.8.3
+EFI supports macOS version 10.15.x through 12.5.1 and beta support for macOS 13 Ventura. Not all features may work on all versions of macOS. Beta software will not be officially supported until released.
 
 Star or watch this github repository to be notified of updates coming soon. 
 
@@ -12,7 +10,6 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
-### I am still refining and cleaning up code though this EFI now has about 90% of Surface supported hardware working reliably. 
 
 ## Supported Surface Specifications:
 
@@ -49,7 +46,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Battery
 - Trackpad
 - TouchScreen (Requires IPTSDaemon, "Chapter 3")
-- Keyboard (may not turn back on after opening keyboard from sleep)
+- Keyboard
 - Audio
 - Recovery
 - Brightness Keys
@@ -58,7 +55,9 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Power Button
 - Volume Buttons
 - Dual Boot with Linux (Version support varies and not all features may work. No support for linux is planned here)
-- UEFI Secure Boot ON (COMING SOON)
+- UEFI Secure Boot ON
+- SD card
+- FileVault
 
 
 
@@ -66,16 +65,13 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## What doesn't work
 
-- SDcard
 - Wi-Fi (unsupported Chipset)
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
-- FileVault
-- Keyboard fails after sleep or disconnect. Reboot resolves this issue
 - Dual Boot with Windows
 
 
 
 ## Credits
-Special thanks to [@Xiashangning](https://github.com/Xiashangning) for the excellent work done on his BigSurface kext<br>
+Special thanks to [@Xiashangning](https://github.com/Xiashangning) for the excellent work done on his BigSurface kext as well as @billabongbro for other Surface specific enhancements<br>
 
