@@ -10,8 +10,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
-### Surface Book (Gen1) support temporarily removed in the latest 4.0 release. This is due to ACPI customizations that are not compatible. Will reintroduce support in a coming release.
-### Discovered incorrect GPU settings for i7 Surface Pro 4 which also impacts the i7 Surface Book. I will be releasing a new EFI soon to resolve this issue. Please be patient while I clean up the EFI for release. 
+### Surface Book (Gen1) support temporarily removed in the latest 4.0 release. This is due to ACPI customizations that are not compatible. Will reintroduce support in a coming release. In the mean time please stay on a 3.x release to retain support.
+ 
 
 ## Supported Surface Specifications:
 
