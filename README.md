@@ -73,6 +73,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Wi-Fi (unsupported Chipset)
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
+- Cameras (unsupported device)
 - S3 Deep Sleep
 
 
