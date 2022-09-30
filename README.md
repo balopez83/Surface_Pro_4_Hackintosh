@@ -1,7 +1,7 @@
 # Surface Pro 4 and Surface Book (gen1) Hackintosh
 This provides the ability to boot the Surface Pro 4 &amp; Surface Book (gen1) to macOS as a hackintosh.  
 
-EFI supports macOS version 10.15.x through 12.6 and beta support for macOS 13 Ventura. Not all features may work on all versions of macOS. Beta software will not be officially supported until released.
+EFI supports macOS version 10.15.X through 12.X and beta support for macOS 13 Ventura. Not all features may work on all versions of macOS. Beta software will not be officially supported until released.
 
 Star or watch this github repository to be notified of updates coming soon. 
 
@@ -10,7 +10,6 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
-### Surface Book (Gen1) support temporarily removed in the latest 4.0 release. This is due to ACPI customizations that are not compatible. Will reintroduce support in a coming release. In the mean time please stay on a 3.x release to retain support.
  
 
 ## Supported Surface Specifications:
@@ -46,6 +45,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Fan
 - USB
 - Battery
+- Dual Battery Fully Supported w/hotplug (Shows as one combined battery - Surface Book)
 - Trackpad
 - TouchScreen (Requires IPTSDaemon, "Chapter 3")
 - Keyboard
@@ -61,6 +61,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - SD card
 - FileVault
 - Dual Boot with Windows
+- Dual Boot with Linux
 - Keyboard Hot Plug
 - Surface Dock
 
