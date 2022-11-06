@@ -9,8 +9,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 
 ## *** NOTICE ***
-### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
-### BigSurface.kext is not currently supporting macOS Ventura. If you upgrade to Ventura you will experience Kernel Panics on every shutdown/reboot. Please stay on macOS Monterey or lower until support for Ventura is added by @Xiashangning in the BigSurface.kext
+- ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
+- ### BigSurface.kext is not currently supporting macOS Ventura. If you upgrade to Ventura you will experience Kernel Panics on every shutdown/reboot. Please stay on macOS Monterey or lower until support for Ventura is added by @Xiashangning in the BigSurface.kext
  
 
 ## Supported Surface Specifications:
