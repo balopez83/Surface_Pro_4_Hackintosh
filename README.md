@@ -1,7 +1,7 @@
 # Surface Pro 4 and Surface Book (gen1) Hackintosh
 This provides the ability to boot the Surface Pro 4 &amp; Surface Book (gen1) to macOS as a hackintosh.  
 
-EFI supports macOS version 10.15.X through 12.X. While Ventura will work it is not officially supported as a required kext has not yet been updated providing support. Not all features may work on all versions of macOS. Beta software will not be officially supported until released.
+EFI supports macOS version 10.15.X through 13.X. macOS Ventura is now OFFICIALLY SUPPORTED
 
 Star or watch this github repository to be notified of updates coming soon. 
 
@@ -10,7 +10,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 - ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
-- ### BigSurface.kext is not currently supporting macOS Ventura. If you upgrade to Ventura you will experience Kernel Panics on every shutdown/reboot. Please stay on macOS Monterey or lower until support for Ventura is added by @Xiashangning in the BigSurface.kext
+- ### BigSurface.kext is not currently supporting macOS Ventura. I have modified the kext to add fixes to issues causing kernel panics on macOS Ventura. Do not change the BigSurface-custom.kext to any current Official BigSurface release version 6.3 or below or it will cause kernel panics on restart/shutdown when running macOS Ventura or newer.
  
 
 ## Supported Surface Specifications:
