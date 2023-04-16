@@ -23,36 +23,12 @@ sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayRes
 System Preferences > Trackpad > Uncheck Force Click and Haptic Feedback
 ```
 
-
-4. If the trackpad seems erratic you may want to try some of the following Terminal commands and see if it helps.
+4. In order to get macOS Hibernation working you are required to change your hibernatemode. Please open Terminal and enter the following command.
 ```
-sudo defaults write NSGlobalDomain com.apple.trackpad.forceClick -bool false
-sudo defaults write com.apple.AppleMultitouchTrackpad ForceSuppressed -bool true
-sudo defaults write com.apple.AppleMultitouchTrackpad ActuateDetents -bool false
-
-sudo defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true 
-sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true 
-sudo defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1 
-sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-
-sudo defaults write com.apple.AppleMultitouchTrackpad Dragging -bool true 
-sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool true
+sudo pmset -a hibernatemode 25;
 ```
-Once entering any or all of the commands above, reboot your computer for the changes to take effect.
 
-
-5. The Graphics in macOS Big Sur and newer is very intensive. If you would like to speed up the computer you can turn off some of the animations. The scripts below will allow you to reduce animations. You may use the second script to re-enable all animations. 
-([Credit Barrykn](https://github.com/barrykn/big-sur-micropatcher) and johncaling40 for the scripts and other unknown contributors for the excellent work they have done to keep older macs running as well as possible)
-
-How to use: Open Terminal and type in ```chmod +x``` and then drag and drop the script(s) below. Hit enter and enter your password if asked. After hitting enter drag and drop the scrip you would like to run and hit enter. If asked enter your password again and then reboot.
-
-[Disable Animation](https://github.com/balopez83/One_Mix_Yoga_4_Hackintosh/blob/main/disable-animations.sh)
-
-[Enable Animtion](https://github.com/balopez83/One_Mix_Yoga_4_Hackintosh/blob/main/reenable-animations.sh)
-
-In addition to the scripts you can also 'Reduce Motion' & 'Reduce Transparency' to further speed things up. Go to 'System Preferences' > 'Accessibility' > 'Display' to make these additional changes. 
-
-6. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
+5. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
 
 
       [Xiashangning IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon)
