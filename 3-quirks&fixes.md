@@ -25,12 +25,12 @@ System Preferences > Trackpad > Uncheck Force Click and Haptic Feedback
 
 4. In order to get macOS Hibernation working you are required to change your hibernatemode and make other power management adjustments. Please open Terminal and enter the following commands.
 ```
-sudo pmset -a hibernatemode 25;
 sudo pmset autopoweroff 0
 sudo pmset powernap 0
 sudo pmset standby 0
 sudo pmset proximitywake 0
 sudo pmset tcpkeepalive 0
+sudo pmset -a hibernatemode 25;
 ```
 
 5. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
