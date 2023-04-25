@@ -65,6 +65,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Dual Boot with Linux
 - Keyboard Hot Plug
 - Surface Dock
+- Deep Sleep (macOS Hibernation 'Hibernatemode=25')
 
 
 
@@ -76,7 +77,6 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
 - Cameras (unsupported device)
-- S3 Deep Sleep
 
 
 
