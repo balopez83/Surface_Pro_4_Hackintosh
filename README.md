@@ -18,7 +18,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 | Model: | Pro 4 | Book (gen1) |
 |---|----------|----------|
 |CPU| 6th Gen: i3, i5, i7 | 6th Gen: i3, i5, i7|
-|GPU| Iris 520 | Intel Iris 520 / Nvidia GPU (unsupported) |
+|GPU| Intel HD 520 / Iris | Intel HD 520 / Nvidia GPU (unsupported) |
 |RAM| 4/8/16 GB | 4/8/16 GB |
 |SSD| 128GB/256GB/512GB/1TBs NVME | 128GB/256GB/512GB/1TB NVME |
 |WiFi| Unsupported | Unsupported |
