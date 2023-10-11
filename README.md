@@ -77,6 +77,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
 - Cameras (unsupported device)
+- mDP for Surface Book (Possibly related to lack of Nvidia dGPU support)
 
 
 
