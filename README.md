@@ -66,6 +66,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Keyboard Hot Plug
 - Surface Dock
 - Deep Sleep (macOS Hibernation 'Hibernatemode=25')
+- mDP (Surface Book & Surface Pro 4)
 
 
 
@@ -77,7 +78,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
 - Cameras (unsupported device)
-- mDP for Surface Book (Possibly related to lack of Nvidia dGPU support)
+
 
 
 
