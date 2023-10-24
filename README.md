@@ -10,7 +10,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 ## *** NOTICE ***
 - ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
-- ### If you have issues with random reboots at the user creation screen after install of macOS Big Sur and newer you can press "Shieft+Enter" at the OpenCore boot selection screen to enter Safe Mode. In Safe Mode you be able to complete setup however it will be extremely slow. I am unsure what is causing this random reboot but until I can resolve it this is a workaround. 
+- ### If you have issues with random reboots at the user creation screen after install of macOS Big Sur and newer it is because you have chosen an incorrect config.plist file. Please ensure that you are using the correct one for your system.
 
  
 
@@ -79,6 +79,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Bluetooth (unsupported Chipset)
 - Accelerometer (unsupported device)
 - Cameras (unsupported device)
+- Hardware based DRM (Apple Issue)
 
 
 
