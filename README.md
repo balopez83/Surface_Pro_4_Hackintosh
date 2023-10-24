@@ -1,7 +1,7 @@
 # Surface Pro 4 and Surface Book (gen1) Hackintosh
 This provides the ability to boot the Surface Pro 4 &amp; Surface Book (gen1) to macOS as a hackintosh.  
 
-EFI supports macOS version 11 through 14.
+EFI supports macOS version 10.15 through 14.
 
 Star or watch this github repository to be notified of updates coming soon. 
 
