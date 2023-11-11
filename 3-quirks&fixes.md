@@ -33,7 +33,29 @@ sudo pmset tcpkeepalive 0
 sudo pmset -a hibernatemode 25;
 ```
 
-### 5. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
+### 5. The Surface devices have issues with waking from sleep after a period of time. If you experience these issues you can try the following options ONE AT A TIME to resolve wake issues. These fixes should ONLY be used if you experience these issues and may need to be reaplied after updates.
+
+The following commands should be entered into Terminal: 
+
+A. Remove Power Management settings that may be corrupt. These will be regenerated to their defaults after reboot and you will need to reapply commands from number 4 above.
+```
+sudo rm /Library/Preferences/com.apple.PowerManagement.*
+```
+B. Make Wake Scheduling unwritable but still able to be read by macOS. This will clear scheduled wakes which can still be applied despite turing off wake schedules. macOS is stubborn when it comes to wake scheduling.
+First we clear the com.apple.AutoWake.plist of all wake schedules:
+```
+sudo pmset sched cancelall
+```
+Next we make the file immutable meaning that it can only be read but not written:
+```
+sudo chflags schg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
+```
+If you need to reverse this you can enter:
+```
+sudo chflags noschg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.plist
+```
+
+### 6. The Touch Screen is finaly usable on the Surface Pro 4-7, Surface Books, and the Surface Laptops. You must install a client that depends on "Brew", "FMT", and "INIH" being installed. In the future this may not be required but for now it works very well. Please use the following link whichincludes the client and all instructions. Issues related to the Touch Screen should be directed to @Xiashangning on his repository issue page.
 
 
       [Xiashangning IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon)
