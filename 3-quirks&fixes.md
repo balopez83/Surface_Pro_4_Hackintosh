@@ -61,4 +61,8 @@ sudo chflags noschg /Library/Preferences/SystemConfiguration/com.apple.AutoWake.
       [Xiashangning IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon)
 
 
+### 7. Enabling Authenticated Restarts with FileVault 2. If you would like to avoid entering a password for FileVault when restarting you can enter the terminal command below. This will not bypass the requirement to enter a password when resuming from Hibernation or when Cold Booting and only turns off the requirement to enter a password when restarting from an already signed in system.
 
+```
+sudo fdesetup authrestart
+```
