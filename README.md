@@ -58,13 +58,13 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - Sleep / Wake
 - Power Button
 - Volume Buttons
-- Dual Boot with Linux
 - UEFI Secure Boot ON
 - SD card
 - FileVault
 - Dual Boot with Windows
 - Dual Boot with Linux
-- Keyboard Hot Plug
+- Dual Boot with chromeOS
+- Surface Keyboard Hot Plug
 - Surface Dock
 - Deep Sleep (macOS Hibernation 'Hibernatemode=25')
 - mDP (Surface Book & Surface Pro 4)
