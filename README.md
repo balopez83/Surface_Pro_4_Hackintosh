@@ -26,7 +26,13 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 |Batt| XX,000 mAH | XX,000 mAH |
 |USB| 1x USB 3.0 | 2x USB 3.0 |
 
+## Supported Software:
 
+- [X] macOS 10.15 Catalina (End of Life)
+- [X] macOS 11 Big Sur (End of Life)
+- [X] macOS 12 Monterey
+- [X] macOS 13 Ventura (Req OCLP)
+- [X] macOS 14 Sonoma (Req OCLP)
 
 
 ## Instruction Guides
