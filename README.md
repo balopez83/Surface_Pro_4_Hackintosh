@@ -31,8 +31,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - [X] macOS 10.15 Catalina (End of Life)
 - [X] macOS 11 Big Sur (End of Life)
 - [X] macOS 12 Monterey
-- [X] macOS 13 Ventura (Req OCLP)
-- [X] macOS 14 Sonoma (Req OCLP)
+- [X] macOS 13 Ventura
+- [X] macOS 14 Sonoma
 
 
 ## Instruction Guides
