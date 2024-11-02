@@ -33,6 +33,8 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 - [X] macOS 12 Monterey
 - [X] macOS 13 Ventura
 - [X] macOS 14 Sonoma
+- [ ] macOS 15 Sequoia
+- [ ] macOS 16 (Expected to end support for Intel)
 
 
 ## Instruction Guides
