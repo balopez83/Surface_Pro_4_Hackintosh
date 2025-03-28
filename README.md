@@ -9,6 +9,7 @@ If you see anything that could be added or changed don't hesitate to sumbit a re
 
 
 ## *** NOTICE ***
+- ## It appears that the Hackintosh journey is coming to a close. Given the EOL of hackintoshing is quickly nearing, I am moving this repo to an LTS support model only updating the repo if fixes are available until Apple stops releasing Intel compatible OS's. I will periodically update kexts and OpenCore as appropriate however there is no need to update with every OC or kext release if no new features or fixes impact the Surface Pro. You should expect that any remaining current issues will not be solved.
 - ### Touch is Technically supported in the posted EFI files however it requires [@Xiashangning's IPTSDaemon](https://github.com/Xiashangning/IPTSDaemon) in order to work. Please see the "Chapter 3" link below for instruction.
 - ### If you have issues with random reboots at the user creation screen after install of macOS Big Sur and newer it is because you have chosen an incorrect config.plist file. Please ensure that you are using the correct one for your system.
 
